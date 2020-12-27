@@ -1,0 +1,6 @@
+Model,Features,R2 test,R2 train,RMSE test,RMSE train,4 fold - mean,4 fold - std,5 fold - mean,5 fold - std,6 fold - mean,6 fold - std,7 fold - mean,7 fold - std,8 fold - mean,8 fold - std,9 fold - mean,9 fold - std,note
+Linear Regression Polynomial Multiple,"['Fare', 'Tips', 'Extras']",1.0,1.0,0.0,0.002,0.998,0.003,1.0,0.0,1.0,0.001,0.983,0.042,0.999,0.001,0.996,0.012,Test size: 0.2 Lenght Features: 3 Degree: 3
+Linear Regression Polynomial Multiple,"['Trip Miles', 'Fare', 'Tips', 'Extras']",1.0,1.0,0.001,0.002,0.953,0.081,0.978,0.043,0.993,0.016,0.998,0.005,0.989,0.028,0.992,0.022,Test size: 0.2 Lenght Features: 4 Degree: 3
+Linear Regression Multiple,"['Trip Miles', 'Fare', 'Extras']",0.996,0.993,27.775,25.233,0.987,0.004,0.987,0.006,0.985,0.007,0.983,0.012,0.985,0.007,0.984,0.008,Test size: 0.2 Lenght Features: 3
+Linear Regression Multiple,"['Fare', 'Extras']",0.995,0.992,42.913,34.949,0.983,0.007,0.983,0.009,0.981,0.009,0.976,0.021,0.982,0.009,0.981,0.009,Test size: 0.2 Lenght Features: 2
+Linear Regression Multiple,"['Fare', 'Tips']",0.922,0.882,11863.179,7054.616,0.931,0.099,0.93,0.117,0.944,0.095,0.884,0.252,0.947,0.102,0.951,0.098,Test size: 0.2 Lenght Features: 2
